@@ -1,0 +1,202 @@
+{% load i18n %}
+{% load static %}
+{% load change_lang %}
+      <!--------------------------------------- Start of Header Navigation ---------------------------------------->
+
+      <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Streets Ireland</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#" tabindex="-1" aria-disabled="true">{% trans "Home" %}</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">{% trans "Our Story" %}</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" tabindex="-1" aria-disabled="true">{% trans "Our Guides" %}</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" tabindex="-1" aria-disabled="true">{% trans "Booking" %}</a></li>
+
+
+              </ul>
+
+              <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="{% change_lang 'uk' %}">Український</a></li>
+              <li class="nav-item"><a class="nav-link" href="{% change_lang 'fr' %}">Français</a></li>
+              <li class="nav-item"><a class="nav-link" href="{% change_lang 'en' %}">English</a></li>
+              </ul>
+
+
+
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+
+      <!--------------------------------------- Start of Header Navigation ---------------------------------------->
+
+
+
+
+      <!--------------------------------------- Start of Carousel ---------------------------------------->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <picture>
+              <img src="{% static '/Photos/pexels-lucian-potlog-3566191.jpg' %}" class="d-block img-fluid" alt="Dublin Bridge">
+              </picture>
+
+              <div class="container">
+                <div class="carousel-caption">
+                  <!-- <h1>{% trans " " %}</h1> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <picture>
+              <img src="{% static 'Photos/pexels-lucian-potlog-1675629.jpg' %}" class="d-block img-fluid" alt="Dublin Streets">
+              </picture>
+
+              <div class="container">
+                <div class="carousel-caption">
+                  <!-- <h1>{% trans " " %}</h1> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <picture>
+              <img src="{% static 'Photos/pexels-lucian-potlog-3566219.jpg' %}" class="d-block img-fluid"  alt="Ha'Penny Bridge">
+              </picture>
+
+              <div class="container">
+                <div class="carousel-caption">
+                  <!-- <h1>{% trans " " %}</h1> -->
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      <!--------------------------------------- End of Carousel ---------------------------------------->
+
+        <br>
+
+      <!--------------------------------------- What we do ---------------------------------------->
+        <div class="container text-center">
+          <h1>{% trans "What we do" %}</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum tempor leo, vel tincidunt tortor sagittis sit amet.
+            Sed a nibh sapien. Aenean tellus mi, porta vitae rutrum vel, maximus ut neque. Sed eget augue eu enim feugiat ultricies hendrerit vel mauris.
+            Morbi tristique tempus diam id tristique. Praesent nec magna quis massa commodo suscipit. Sed fringilla dolor eu ipsum aliquet malesuada.
+            Nulla commodo urna porta iaculis semper. Aenean nec eleifend elit. Sed rhoncus aliquam lorem non volutpat. Praesent non vehicula diam,
+            sit amet consequat purus. Quisque eleifend convallis odio viverra pretium. Nunc elit tortor, fermentum ac tincidunt vitae, bibendum non dui.
+            Ut porta laoreet lacus, in pulvinar quam scelerisque et. Suspendisse eget dui consequat, sollicitudin dolor auctor, venenatis dolor.
+            Phasellus eros leo, hendrerit quis felis vitae, maximus rhoncus eros. Ut nec purus rhoncus, interdum libero a, ullamcorper mi.
+            Aliquam at volutpat turpis. Pellentesque dictum ut nisl ut dictum. Proin quis interdum ante. Nunc dolor mi, egestas nec odio vel, elementum porttitor nunc.
+            Praesent vel leo eleifend, eleifend nunc quis, auctor urna. Praesent varius sodales consequat.
+          </p>
+        </div>
+      <!--------------------------------------- End of What we do ---------------------------------------->
+
+
+
+
+      <!--------------------------------------- Our Beginnings ---------------------------------------->
+        <div class="container">
+          <img src="{% static '/Photos/image (6).jpg' %}" width="50%" alt="Dublin Streets"><img src="{% static 'Photos/image (7).jpg' %}" width="50%" alt="Man Playing Guitar on Grafton Street">
+          <hr>
+            <div class="row">
+            <div class="col-md-7 order-md-2">
+            <h2>Dublin. <span class="text-muted">{% trans "In the heart of the City." %}</span></h2>
+            <p>
+              Vestibulum tincidunt metus feugiat, cursus enim et, scelerisque justo. Ut in urna quis arcu imperdiet tincidunt. Sed diam sapien,
+              consectetur ac ex finibus, imperdiet sodales orci. Nullam quis dui varius, vehicula urna quis, elementum sem. Nullam venenatis malesuada quam nec vehicula.
+              Phasellus auctor nibh vitae ex lacinia, quis imperdiet diam tincidunt. Fusce varius nisi accumsan neque feugiat accumsan. Ut elit ante, placerat id cursus et,
+              pretium nec diam.
+            </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+            <picture>
+              <img srcset="{% static 'Photos/sm1photo.jpg' %}" alt="Dublin City" class="d-block img-fluid">
+            </picture>
+            </div>
+            </div>
+          <hr>
+            <div class="row">
+            <div class="col-md-7">
+            <h2> <span class="text-muted">{% trans " An Opportunity unlike no other." %}</span></h2>
+            <p>
+              Aliquam nec blandit massa, sit amet congue mi. Praesent ac sapien augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+              Phasellus finibus velit sed nunc semper, quis aliquet lacus convallis. Etiam pretium ullamcorper blandit. Nunc quis interdum leo.
+              Vivamus egestas mollis tempus. Vivamus egestas lacus vel euismod lobortis. Nullam porttitor ligula sit amet nisl porttitor, scelerisque sodales urna cursus.
+              Nunc at dolor risus. Vivamus non faucibus neque. Praesent euismod rhoncus dui, volutpat accumsan tellus iaculis at.
+            </p>
+            </div>
+            <div class="col-md-5">
+            <picture>
+              <source srcset="{% static 'Photos/lg2photo.jpg' %}" media="(min-width: 769px)">
+              <source srcset="{% static 'Photos/md2photo.jpg' %}" media="(min-width: 577px)">
+              <img srcset="{% static 'Photos/sm2photo.jpg' %}" alt="Dublin City" class="d-block img-fluid">
+            </picture>
+            </div>
+            </div>
+          <hr>
+        </div>
+      <!--------------------------------------- End of Our Beginnings ---------------------------------------->
+
+      <!--------------------------------------- Founder ------------------------------------------------------>
+        <div class="container text-center">
+        <h1>Austin Campbell</h1><br>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315"  class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/0upKnptEU60" allowfullscreen></iframe>
+        </div>
+        <hr>
+        </div>
+      <!--------------------------------------- End of Founder ----------------------------------------------->
+
+
+
+
+      <!--------------------------------------- Footer ------------------------------------------------------->
+        <footer class="text-center text-white bg-dark">
+        <div class="container">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        </div>
+
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <p>2021 &copy; My Streets Ireland</p>
+          <p id="local-date">{% now "DATE_FORMAT" %} - {% now "TIME_FORMAT" %} </p>
+        </div>
+
+        </footer>
+      <!--------------------------------------- End of Footer ------------------------------------------------>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
