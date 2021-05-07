@@ -2,7 +2,9 @@
 ## DT282 Software for the Global Market 2 – Final Report
 
 Student Number: C19300696
+
 Student Name: Luke O’Shea Scanlan
+
 Group Name: Luke O’Shea Scanlan and Igor Alekhnovych
 
 ## My Django Application
