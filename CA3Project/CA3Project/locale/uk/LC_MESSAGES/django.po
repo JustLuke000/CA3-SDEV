@@ -7,8 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-06 19:36+0100\n"
+"POT-Creation-Date: 2021-05-07 11:16+0100\n"
 "PO-Revision-Date: 2021-05-06 19:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,8 +19,6 @@ msgstr ""
 "11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.4.3\n"
 
 #: .\CA3Project\settings.py:137
@@ -37,60 +37,57 @@ msgstr "Німецька"
 msgid "Ukrainian"
 msgstr "Український"
 
-#: .\CA3Project\templates\achievement_index.html:10
-#: .\CA3Project\templates\achievement_index.html:121
-#: .\CA3Project\templates\ascription_index.html:10
-#: .\CA3Project\templates\ascription_index.html:150
-msgid "About Us"
-msgstr "Про нас"
-
-#: .\CA3Project\templates\achievement_index.html:35
-#: .\CA3Project\templates\achievement_index.html:120
-#: .\CA3Project\templates\ascription_index.html:72
-#: .\CA3Project\templates\ascription_index.html:149
+#: .\CA3Project\templates\achievement_index.html:49
+#: .\CA3Project\templates\ascription_index.html:7
+#: .\CA3Project\templates\ascription_index.html:86
 msgid "Home"
 msgstr "Додому"
 
-#: .\CA3Project\templates\achievement_index.html:36
-#: .\CA3Project\templates\ascription_index.html:73
+#: .\CA3Project\templates\achievement_index.html:50
+#: .\CA3Project\templates\ascription_index.html:8
 msgid "Our Story"
 msgstr "Наша історія"
 
-#: .\CA3Project\templates\achievement_index.html:37
-#: .\CA3Project\templates\ascription_index.html:74
+#: .\CA3Project\templates\achievement_index.html:51
+#: .\CA3Project\templates\ascription_index.html:9
 msgid "Our Guides"
 msgstr "Наші путівники"
 
-#: .\CA3Project\templates\achievement_index.html:38
-#: .\CA3Project\templates\ascription_index.html:75
+#: .\CA3Project\templates\achievement_index.html:52
+#: .\CA3Project\templates\ascription_index.html:10
 msgid "Booking"
 msgstr "Бронювання"
 
-#: .\CA3Project\templates\achievement_index.html:72
-#: .\CA3Project\templates\achievement_index.html:84
-#: .\CA3Project\templates\achievement_index.html:96
-#: .\CA3Project\templates\ascription_index.html:101
-#: .\CA3Project\templates\ascription_index.html:113
-#: .\CA3Project\templates\ascription_index.html:125
+#: .\CA3Project\templates\achievement_index.html:98
+#: .\CA3Project\templates\achievement_index.html:110
+#: .\CA3Project\templates\achievement_index.html:122
+#: .\CA3Project\templates\ascription_index.html:37
+#: .\CA3Project\templates\ascription_index.html:49
+#: .\CA3Project\templates\ascription_index.html:61
 msgid " "
 msgstr ""
 
-#: .\CA3Project\templates\achievement_index.html:131
-#: .\CA3Project\templates\ascription_index.html:162
+#: .\CA3Project\templates\achievement_index.html:144
+#: .\CA3Project\templates\ascription_index.html:100
 msgid "What we do"
 msgstr "Що ми робимо"
 
-#: .\CA3Project\templates\achievement_index.html:155
-#: .\CA3Project\templates\ascription_index.html:209
+#: .\CA3Project\templates\achievement_index.html:168
+#: .\CA3Project\templates\ascription_index.html:147
 msgid "In the heart of the City."
 msgstr "У серці міста."
 
-#: .\CA3Project\templates\achievement_index.html:172
-#: .\CA3Project\templates\ascription_index.html:224
-#: .\CA3Project\templates\ascription_index.html:239
+#: .\CA3Project\templates\achievement_index.html:185
+#: .\CA3Project\templates\ascription_index.html:162
+#: .\CA3Project\templates\ascription_index.html:177
 msgid " An Opportunity unlike no other."
 msgstr "Можливість, на відміну від жодної іншої."
 
-#: .\CA3Project\templates\ascription_index.html:177
+#: .\CA3Project\templates\ascription_index.html:87
+#: .\CA3Project\templates\base.html:8
+msgid "About Us"
+msgstr "Про нас"
+
+#: .\CA3Project\templates\ascription_index.html:115
 msgid "Our Motivations"
 msgstr "Наші мотивації"

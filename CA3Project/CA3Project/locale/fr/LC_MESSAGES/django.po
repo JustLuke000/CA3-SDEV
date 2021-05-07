@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-06 16:37+0100\n"
-"PO-Revision-Date: 2021-05-06 16:39+0100\n"
+"POT-Creation-Date: 2021-05-07 11:16+0100\n"
+"PO-Revision-Date: 2021-05-07 11:17+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -30,39 +30,61 @@ msgstr "Anglais"
 msgid "German"
 msgstr "Allemand"
 
-#: .\CA3Project\templates\index.html:9 .\CA3Project\templates\index.html:114
-msgid "About Us"
-msgstr "À propos de nous"
+#: .\CA3Project\settings.py:140
+msgid "Ukrainian"
+msgstr ""
 
-#: .\CA3Project\templates\index.html:33 .\CA3Project\templates\index.html:113
+#: .\CA3Project\templates\achievement_index.html:49
+#: .\CA3Project\templates\ascription_index.html:7
+#: .\CA3Project\templates\ascription_index.html:86
 msgid "Home"
 msgstr "Accueil"
 
-#: .\CA3Project\templates\index.html:34
+#: .\CA3Project\templates\achievement_index.html:50
+#: .\CA3Project\templates\ascription_index.html:8
 msgid "Our Story"
 msgstr "Notre histoire"
 
-#: .\CA3Project\templates\index.html:35
+#: .\CA3Project\templates\achievement_index.html:51
+#: .\CA3Project\templates\ascription_index.html:9
 msgid "Our Guides"
 msgstr "Nos guides"
 
-#: .\CA3Project\templates\index.html:36
+#: .\CA3Project\templates\achievement_index.html:52
+#: .\CA3Project\templates\ascription_index.html:10
 msgid "Booking"
 msgstr "Réservation"
 
-#: .\CA3Project\templates\index.html:65 .\CA3Project\templates\index.html:77
-#: .\CA3Project\templates\index.html:89
+#: .\CA3Project\templates\achievement_index.html:98
+#: .\CA3Project\templates\achievement_index.html:110
+#: .\CA3Project\templates\achievement_index.html:122
+#: .\CA3Project\templates\ascription_index.html:37
+#: .\CA3Project\templates\ascription_index.html:49
+#: .\CA3Project\templates\ascription_index.html:61
 msgid " "
 msgstr ""
 
-#: .\CA3Project\templates\index.html:124
+#: .\CA3Project\templates\achievement_index.html:144
+#: .\CA3Project\templates\ascription_index.html:100
 msgid "What we do"
 msgstr "Ce que nous faisons"
 
-#: .\CA3Project\templates\index.html:148
+#: .\CA3Project\templates\achievement_index.html:168
+#: .\CA3Project\templates\ascription_index.html:147
 msgid "In the heart of the City."
 msgstr "En plein cœur de la ville."
 
-#: .\CA3Project\templates\index.html:165
+#: .\CA3Project\templates\achievement_index.html:185
+#: .\CA3Project\templates\ascription_index.html:162
+#: .\CA3Project\templates\ascription_index.html:177
 msgid " An Opportunity unlike no other."
 msgstr " Une opportunité pas comme les autres."
+
+#: .\CA3Project\templates\ascription_index.html:87
+#: .\CA3Project\templates\base.html:8
+msgid "About Us"
+msgstr "À propos de nous"
+
+#: .\CA3Project\templates\ascription_index.html:115
+msgid "Our Motivations"
+msgstr "Nos motivations"
